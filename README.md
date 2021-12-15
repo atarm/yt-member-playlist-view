@@ -1,6 +1,6 @@
 # メン限動画プレイリストView (Chrome拡張機能)  
 任意のYoutubeチャンネルのメンバーシップ限定動画がまとめられたプレイリストを表示するChrome拡張機能です。  
-一々"https://www.youtube.com/playlist?list=UUMO"にUC以下のチャンネルIDを連結させるのが手間だったので作りました。
+一々"https://www.youtube.com/playlist?list=UUMO" にUC以下のチャンネルIDを連結させるのが手間だったので作りました。
 ## 本拡張機能の使い方
 1. メンバーシップ限定動画のプレイリストを表示したいYoutubeチャンネルを開く
 2. 本拡張機能をクリック
