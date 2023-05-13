@@ -1,6 +1,6 @@
 {
     "name": "メン限動画プレイリストView",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "manifest_version": 3,
     "description": "Youtubeチャンネルのメンバーシップ限定動画一覧(再生リスト)を表示します",
     "icons": {
