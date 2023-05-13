@@ -5,7 +5,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse)=> {
         var dom = document.createElement('div');
         dom.innerHTML = request.html;
         //
-        var channelId = dom.querySelector('[itemprop="channelId"]').content;
+        var channelId = dom.querySelector('[itemprop="identifier"]').content;
         url = 'https://www.youtube.com/playlist?list=UUMO' + channelId.replace("UC", "");
         //
         location.href = url;
