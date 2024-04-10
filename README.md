@@ -1,12 +1,12 @@
 <div align="center">
-    <img src="src/icon.png" width=200 height=200>
+    <img src="src/icon.png" width=150 height=150>
     <h1>Membership-only Video Playlist Viewer</h1>
     <p>One-click to find membership-only videos on Youtube channels</p>
 </div>
 
 <div align="center">
 
-![Banner](https://lh3.googleusercontent.com/Y0t_kWmkTg1EmzWmXhjoTamEQoOmPz5N8YrXfp9lrtOcvabhuFmj5C5h4lKkImpICnTXdD11Fb97hWLpY9CigOoJ1M4=s800-w800-h500)
+![Banner](https://lh3.googleusercontent.com/Y0t_kWmkTg1EmzWmXhjoTamEQoOmPz5N8YrXfp9lrtOcvabhuFmj5C5h4lKkImpICnTXdD11Fb97hWLpY9CigOoJ1M4=s400-w800-h500)
 
 [![][github-license-shield]][github-license-link]
 [![][latest-version-shield]][latest-version-link]
