@@ -1,8 +1,13 @@
-# Menbership-only Video Playlist Viewer
-This is a Chrome extension that displays a playlist of membership-only videos of any Youtube channel.  
+<div align="center">
+    <img src="src/icon.png" width=200 height=200>
+    <h1>Menbership-only Video Playlist Viewer</h1>
+    <p>One-click to find membership-only videos on Youtube channels</p>
+</div>
 
-# Features
-One-click to find membership video playlists, which can be a hassle to find
+![Banner](https://lh3.googleusercontent.com/Y0t_kWmkTg1EmzWmXhjoTamEQoOmPz5N8YrXfp9lrtOcvabhuFmj5C5h4lKkImpICnTXdD11Fb97hWLpY9CigOoJ1M4=s800-w800-h500)
+
+
+[![License](https://img.shields.io/github/license/jordanbaird/Ice?style=flat-square)](LICENSE)
 
 # Requirement
 * Google Chrome or Microsoft Edge version 91 or later
