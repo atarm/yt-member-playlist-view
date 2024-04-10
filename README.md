@@ -11,8 +11,8 @@
 [![][github-license-shield]][github-license-link]
 [![][latest-version-shield]][latest-version-link]
 
-![][chrome-webstore-users-shield]
-![][chrome-webstore-rating-shield]
+[![][chrome-webstore-users-shield]][extension-store-link]
+[![][chrome-webstore-rating-shield]][extension-store-link]
 
 </div>
 
