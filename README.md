@@ -11,6 +11,9 @@
 [![][github-license-shield]][github-license-link]
 [![][latest-version-shield]][latest-version-link]
 
+![][chrome-webstore-users-shield]
+![][chrome-webstore-rating-shield]
+
 </div>
 
 # Installation
@@ -26,10 +29,13 @@
 Read more on [Development Basics](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
 
 <!-- SHIELDS GROUP -->
-[github-license-shield]: https://img.shields.io/github/license/atarm/yt-member-playlist-view
+[github-license-shield]: https://img.shields.io/github/license/atarm/yt-member-playlist-view?style=for-the-badge&logo=github
 [github-license-link]: https://github.com/atarm/yt-member-playlist-view/blob/master/LICENSE.md
-[latest-version-shield]: https://img.shields.io/github/v/release/atarm/yt-member-playlist-view
+[latest-version-shield]: https://img.shields.io/github/v/release/atarm/yt-member-playlist-view?style=for-the-badge&logo=github
 [latest-version-link]: https://github.com/atarm/yt-member-playlist-view/releases/latest
 
 [extension-store-shield]: https://img.shields.io/badge/-Chrome-brightgreen?logo=google-chrome&logoColor=white
 [extension-store-link]: https://chromewebstore.google.com/detail/alipjbeolhembeklphfcehbkgncdlnom
+
+[chrome-webstore-rating-shield]:https://img.shields.io/chrome-web-store/stars/alipjbeolhembeklphfcehbkgncdlnom?style=for-the-badge&logo=googlechrome
+[chrome-webstore-users-shield]:https://img.shields.io/chrome-web-store/users/alipjbeolhembeklphfcehbkgncdlnom?style=for-the-badge&logo=googlechrome
