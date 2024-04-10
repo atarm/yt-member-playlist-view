@@ -1,17 +1,35 @@
-# Menbership-only Video Playlist Viewer
-This is a Chrome extension that displays a playlist of membership-only videos of any Youtube channel.  
+<div align="center">
+    <img src="src/icon.png" width=150 height=150>
+    <h1>Membership-only Video Playlist Viewer</h1>
+    <p>One-click to find membership-only videos on Youtube channels</p>
+</div>
 
-# Features
-One-click to find membership video playlists, which can be a hassle to find
+<div align="center">
 
-# Requirement
-* Google Chrome or Microsoft Edge version 91 or later
+![Banner](https://lh3.googleusercontent.com/Y0t_kWmkTg1EmzWmXhjoTamEQoOmPz5N8YrXfp9lrtOcvabhuFmj5C5h4lKkImpICnTXdD11Fb97hWLpY9CigOoJ1M4=s400-w800-h500)
 
-# Usage
-To experiment with these samples, please clone this repo and use 'Load Unpacked Extension'. Read more on [Development Basics](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
+[![][github-license-shield]][github-license-link]
+[![][latest-version-shield]][latest-version-link]
 
-# Author
-* atarm
+</div>
 
-# License
-"Menbership-only Video Playlist Viewer" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+# Installation
+## From WebStore
+[![][extension-store-shield]][extension-store-link]
+
+## Manual (Google Chrome)
+1. Download from [Release](https://github.com/atarm/yt-member-playlist-view/releases).
+2. Unzip the file.
+3. In Chrome go to the extension page(chrome://extensions/).
+4. Enable "Developer mode".
+5. Click on "Load Unpacked" and open the directory `yt-member-playlist-view/src`.
+Read more on [Development Basics](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
+
+<!-- SHIELDS GROUP -->
+[github-license-shield]: https://img.shields.io/github/license/atarm/yt-member-playlist-view
+[github-license-link]: https://github.com/atarm/yt-member-playlist-view/blob/master/LICENSE.md
+[latest-version-shield]: https://img.shields.io/github/v/release/atarm/yt-member-playlist-view
+[latest-version-link]: https://github.com/atarm/yt-member-playlist-view/releases/latest
+
+[extension-store-shield]: https://img.shields.io/badge/-Chrome-brightgreen?logo=google-chrome&logoColor=white
+[extension-store-link]: https://chromewebstore.google.com/detail/alipjbeolhembeklphfcehbkgncdlnom
