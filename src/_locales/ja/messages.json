@@ -1,0 +1,11 @@
+{
+    "appName": {
+        "message": "メン限動画プレイリストView"
+    },
+    "appDesc": {
+        "message": "Youtubeチャンネルのメンバーシップ限定動画一覧(再生リスト)を表示します"
+    },
+    "appTitle": {
+        "message": "メンバーシップ限定動画プレイリストを開く"
+    }
+}

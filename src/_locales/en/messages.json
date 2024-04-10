@@ -1,0 +1,11 @@
+{
+    "appName": {
+        "message": "Membership-only Video Playlist Viewer"
+    },
+    "appDesc": {
+        "message": "One-click to find membership-only videos on Youtube channels"
+    },
+    "appTitle": {
+        "message": "Open membership-only video playlist"
+    }
+}
