@@ -13,12 +13,15 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse)=> {
         url = 'https://www.youtube.com/playlist?list=UUMO' + channelId.replace("UC", "");
         //
         location.href = url;
-        return true
+        return true;
     }
-    return true
+    return true;
 });
 
 function extractChannelId(dom, html) {
+    // YouTube channel IDs start with "UC" prefix
+    var CHANNEL_ID_PATTERN = /\/channel\/(UC[\w-]+)/;
+    
     // Method 1: Try itemprop="identifier" (works for English pages)
     try {
         var identifierElement = dom.querySelector('[itemprop="identifier"]');
@@ -33,7 +36,7 @@ function extractChannelId(dom, html) {
     try {
         var canonicalLink = dom.querySelector('link[rel="canonical"]');
         if (canonicalLink && canonicalLink.href) {
-            var match = canonicalLink.href.match(/\/channel\/(UC[\w-]+)/);
+            var match = canonicalLink.href.match(CHANNEL_ID_PATTERN);
             if (match && match[1]) {
                 return match[1];
             }
@@ -56,7 +59,7 @@ function extractChannelId(dom, html) {
     try {
         var ogUrlMeta = dom.querySelector('meta[property="og:url"]');
         if (ogUrlMeta && ogUrlMeta.content) {
-            var match = ogUrlMeta.content.match(/\/channel\/(UC[\w-]+)/);
+            var match = ogUrlMeta.content.match(CHANNEL_ID_PATTERN);
             if (match && match[1]) {
                 return match[1];
             }
